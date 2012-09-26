@@ -1,10 +1,14 @@
 package algorithmrepresentation;
 
+import org.apache.commons.collections.map.MultiValueMap;
+
 /**
  * A Representation of the data in Table.
  * @author franzejr
  */
 public class TableSet implements IDataModel {
+    
+    private MultiValueMap table;
 
     @Override
     public String makeJSONOut() {
