@@ -17,10 +17,13 @@ public class AlgorithmRepresentation {
         //1)Using the Builder
         //2)Using the Algorithm byself
 
-        IClusteringBuilder algorithm = new OpticsBuilder();
-        algorithm.getAlgorithm().execute();
+        //Input Data
+        IDataModel idataModel = null;
+        
+        IAlgorithmBuilder algorithm = new OpticsBuilder();
+        algorithm.getAlgorithm().execute(idataModel, new Parameters());
 
-        IClusteringAlgorithm algorithm2 = new Optics();
-        algorithm2.execute();
+        Algorithm algorithm2 = new Optics();
+        algorithm2.execute(idataModel, new Parameters());
     }
 }

@@ -1,40 +1,21 @@
 package algorithmrepresentation;
 
 /**
- *The last level of your implementation is the algorithm. Here you can
- * implement really the algorithm.
+ * The last level of your implementation is the algorithm. Here you can
+ * implement really the algorithm, remembering that the execute will be the
+ * main method.
+ *
  * @author franzejr
  */
-public class Optics implements IClusteringAlgorithm {
+public class Optics extends Algorithm {
 
-    /*
-     * Method to execute the algorithm
-     */
     @Override
-    public void execute() {
+    public void execute(IDataModel data, Parameters parameters) {
         throw new UnsupportedOperationException("Not supported yet.");
     }
     
-    /*
-     * A report for the algorithm
-     */
-    @Override
-    public String getReport() {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
-    /*
-     * Algorithm identifier
-     */
     @Override
     public String getIdentifier() {
         throw new UnsupportedOperationException("Not supported yet.");
     }
-    /*
-     * Some specific method to the Clustering Algorithm
-     */
-    @Override
-    public Object clusterize() {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
-    
 }

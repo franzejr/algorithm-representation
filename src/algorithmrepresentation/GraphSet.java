@@ -1,29 +1,34 @@
 package algorithmrepresentation;
 
 /**
- * With this builder is possible to create an algorithm.
+ * Representation of a Graph Model
  *
  * @author franzejr
  */
-public class OpticsBuilder implements IAlgorithmBuilder {
+public class GraphSet implements IDataModel {
 
     @Override
-    public String getName() {
+    public boolean create() {
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
     @Override
-    public String getDescription() {
+    public boolean read() {
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
     @Override
-    public Algorithm getAlgorithm() {
+    public boolean update() {
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
     @Override
-    public Class getAlgorithmClass() {
+    public String makeJSONOut() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    @Override
+    public String makeXMLOut() {
         throw new UnsupportedOperationException("Not supported yet.");
     }
 }

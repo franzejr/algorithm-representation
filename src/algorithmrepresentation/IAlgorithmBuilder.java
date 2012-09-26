@@ -9,7 +9,7 @@ public interface IAlgorithmBuilder {
     /*
      * @return Algorithm
      */
-    public IAlgorithm getAlgorithm();
+    public Algorithm getAlgorithm();
     /*
      * @return Algorithm Name
      */
@@ -20,9 +20,8 @@ public interface IAlgorithmBuilder {
     public String getDescription();
     
     /*
-     * 
      * @return Algorithm Class
      */
-    public Class getAlgorithmClass();
+    public Class<Algorithm> getAlgorithmClass();
     
 }

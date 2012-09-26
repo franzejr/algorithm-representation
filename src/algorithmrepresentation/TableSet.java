@@ -1,29 +1,34 @@
 package algorithmrepresentation;
 
 /**
- * With this builder is possible to create an algorithm.
- *
+ * A Representation of the data in Table.
  * @author franzejr
  */
-public class OpticsBuilder implements IAlgorithmBuilder {
+public class TableSet implements IDataModel {
 
     @Override
-    public String getName() {
+    public String makeJSONOut() {
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
     @Override
-    public String getDescription() {
+    public String makeXMLOut() {
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
     @Override
-    public Algorithm getAlgorithm() {
+    public boolean create() {
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
     @Override
-    public Class getAlgorithmClass() {
+    public boolean read() {
         throw new UnsupportedOperationException("Not supported yet.");
     }
+
+    @Override
+    public boolean update() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+    
 }
