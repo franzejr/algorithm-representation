@@ -1,12 +1,17 @@
 package algorithmrepresentation;
 
 /**
- * A Report represents a state of an algorithm.
+ ** Report is a log and issue container. Filled with information, details,
+ * minor or major issues, it is stored in an issue list and can be retrieved to
+ * present issues to end-users. Behavior is the same as a simple logging
+ * library.
+ *
  * @author franzejr
  */
 public class Report {
-    
+
     private String report;
+
     /**
      * @return the report
      */
@@ -20,5 +25,4 @@ public class Report {
     public void setReport(String report) {
         this.report = report;
     }
-    
 }
