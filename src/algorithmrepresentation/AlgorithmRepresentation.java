@@ -17,7 +17,7 @@ public class AlgorithmRepresentation {
         //1)Using the Builder
         //2)Using the Algorithm byself
 
-        IAlgorithmBuilder algorithm = new OpticsBuilder();
+        IClusteringBuilder algorithm = new OpticsBuilder();
         algorithm.getAlgorithm().execute();
 
         IClusteringAlgorithm algorithm2 = new Optics();
